@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/main_image"
-    tools:context=".SplashFragment">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome To\n Ib_Soft"
-        android:layout_gravity="bottom"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="100dp"/>
+    <data>
 
-</LinearLayout>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_image"
+        tools:context=".SplashFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To\n Ib_Soft"
+            android:layout_gravity="bottom"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="100dp" />
+
+    </LinearLayout>
+</layout>
