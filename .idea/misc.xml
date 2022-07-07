@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/dart/Design2/app/src/main/res/drawable/backgrou_shap.xml" value="0.1" />
+        <entry key="..\:/dart/Design2/app/src/main/res/drawable/background_black.xml" value="0.1" />
+        <entry key="..\:/dart/Design2/app/src/main/res/drawable/background_red.xml" value="0.1" />
         <entry key="..\:/dart/Design2/app/src/main/res/layout/activity_main.xml" value="0.21510416666666668" />
         <entry key="..\:/dart/Design2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/dart/Design2/app/src/main/res/layout/fragment_splash.xml" value="0.2421875" />
+        <entry key="..\:/dart/Design2/app/src/main/res/layout/fragment_sign_up.xml" value="0.176" />
+        <entry key="..\:/dart/Design2/app/src/main/res/layout/fragment_splash.xml" value="0.152" />
       </map>
     </option>
   </component>

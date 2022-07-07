@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     android:background="#EFE48E"
     android:orientation="vertical"
-    tools:context=".HomeFragment">
+    tools:context=".SignUpFragment">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HI,\nPlease Login"
+            android:text="Create \nAccount"
             android:textStyle="bold"
             android:textSize="30sp"
             android:layout_marginTop="70dp"
@@ -28,6 +30,23 @@
         android:padding="10dp"
         android:background="@drawable/backgrou_shap"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Name"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_red"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Here"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/white"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,48 +81,35 @@
             android:hint="Enter Here"
             android:layout_margin="10dp"
             android:textColorHint="@color/white"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:src="@drawable/facebook"/>
-            <ImageView
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:src="@drawable/twitter"/>
-        </LinearLayout>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Forget Password"
+            android:textColor="#E91E63"
+            android:layout_marginLeft="20dp"
             android:padding="10dp"
-            android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textStyle="bold"
+            android:text="Re-Password"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_red"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Here"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/white"/>
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Login"
+            android:text="SignUp"
             android:textSize="20sp"
+            android:layout_marginBottom="5dp"
             android:textColor="@color/white"
             android:textAllCaps="false"
             android:background="@drawable/background_black"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Do'nt Have an Account? Signup"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:gravity="center"/>
     </LinearLayout>
+
 
 </LinearLayout>
